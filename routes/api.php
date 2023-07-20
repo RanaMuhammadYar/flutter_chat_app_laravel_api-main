@@ -42,4 +42,3 @@ Route::middleware('auth:sanctum')->group(function (){
     Route::apiResource('user', UserController::class)->only(['index']);
 
 });
- 
